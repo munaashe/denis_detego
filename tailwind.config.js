@@ -8,16 +8,11 @@ const config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
-        primary: '#00CBEC',
-        secondary: '#003A56',
-        tertiary1: '#9D4400',
-        tertiary2: '#E6F4F1',
+        primary: '#000000',
+        secondary: '#643B47',
+        tertiary1: '#FFF3FA',
+        tertiary2: '#28161C',
       },
       screens: {
         'xs': { 'min': '0px', 'max': '640px' },
