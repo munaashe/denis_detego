@@ -35,7 +35,9 @@ const Image = () => {
 export default Image
 
 const ImageLoader = () => (
-    <div className="flex justify-center items-center h-screen bg-gray-200 w-full">
+    <div className="flex justify-center items-center h-screen bg-gray-200 w-full"
+        id='Image Loading Skeleton'
+    >
         <div className="border-4 border-gray-400 border-opacity-50 animate-pulse"></div>
         <div className="border-4 border-gray-400 border-opacity-50 animate-pulse"></div>
         <div className="border-4 border-gray-400 border-opacity-50 animate-pulse"></div>
